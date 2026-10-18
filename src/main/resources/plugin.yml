@@ -1,0 +1,15 @@
+name: HorrorCreatures
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.21"
+description: A plugin that adds horror creatures to Minecraft.
+commands:
+  spawncreature:
+    description: Spawn a horror creature.
+    usage: /spawncreature <creature>
+    permission: horrorcreatures.spawn
+permissions:
+  horrorcreatures.spawn:
+    description: Allows spawning horror creatures.
+    default: op
